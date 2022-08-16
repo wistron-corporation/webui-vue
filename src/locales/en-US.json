@@ -325,6 +325,7 @@
     "sectionTitleBmcCards": "BMC",
     "sectionTitleBmcCardsCombined": "BMC and server",
     "sectionTitleHostCards": "Host",
+    "sectionTitleCpldCards": "CPLD",
     "sectionTitleUpdateFirmware": "Update firmware",
     "alert": {
       "operationInProgress": "Server power operation in progress.",

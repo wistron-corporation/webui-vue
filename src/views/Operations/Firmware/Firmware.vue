@@ -14,6 +14,9 @@
 
         <!-- Host Firmware -->
         <host-cards v-if="!isSingleFileUploadEnabled" />
+
+        <!-- CPLD Firmware -->
+        <cpld-cards :is-page-disabled="isPageDisabled" />
       </b-col>
     </b-row>
 
@@ -39,6 +42,7 @@ import AlertsServerPower from './FirmwareAlertServerPower';
 import BmcCards from './FirmwareCardsBmc';
 import FormUpdate from './FirmwareFormUpdate';
 import HostCards from './FirmwareCardsHost';
+import CpldCards from './FirmwareCardsCpld';
 import PageSection from '@/components/Global/PageSection';
 import PageTitle from '@/components/Global/PageTitle';
 
@@ -51,6 +55,7 @@ export default {
     BmcCards,
     FormUpdate,
     HostCards,
+    CpldCards,
     PageSection,
     PageTitle,
   },
