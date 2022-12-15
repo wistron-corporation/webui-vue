@@ -33,6 +33,8 @@ import WebSocketPlugin from './plugins/WebSocketPlugin';
 import DateTimeStore from './modules/Settings/DateTimeStore';
 import VirtualMediaStore from './modules/Operations/VirtualMediaStore';
 
+import PFRStore from './modules/Operations/PFRStore';
+
 Vue.use(Vuex);
 
 export default new Vuex.Store({
@@ -69,6 +71,7 @@ export default new Vuex.Store({
     policies: PoliciesStore,
     factoryReset: FactoryResetStore,
     keyClear: KeyClearStore,
+    PFR: PFRStore,
   },
   plugins: [WebSocketPlugin],
 });

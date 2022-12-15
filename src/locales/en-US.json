@@ -127,7 +127,8 @@
     "certificates": "@:appPageTitle.certificates",
     "virtualMedia": "@:appPageTitle.virtualMedia",
     "power": "@:appPageTitle.power",
-    "keyClear": "@:appPageTitle.keyClear"
+    "keyClear": "@:appPageTitle.keyClear",
+    "PFR": "@:appPageTitle.PFR"
   },
   "appPageTitle": {
     "changePassword": "Change password",
@@ -156,7 +157,8 @@
     "serverPowerOperations": "Server power operations",
     "certificates": "Certificates",
     "virtualMedia": "Virtual media",
-    "keyClear": "Key clear"
+    "keyClear": "Key clear",
+    "PFR": "PFR"
   },
   "pageChangePassword": {
     "changePassword": "Change password",

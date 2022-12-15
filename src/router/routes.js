@@ -30,6 +30,7 @@ import Certificates from '@/views/SecurityAndAccess/Certificates';
 import VirtualMedia from '@/views/Operations/VirtualMedia';
 import Power from '@/views/ResourceManagement/Power';
 import i18n from '@/i18n';
+import PFR from '@/views/Operations/PFR';
 
 const routes = [
   {
@@ -213,6 +214,14 @@ const routes = [
         component: Firmware,
         meta: {
           title: i18n.t('appPageTitle.firmware'),
+        },
+      },
+      {
+        path: '/operations/PFR',
+        name: 'PFR',
+        component: PFR,
+        meta: {
+          title: i18n.t('appPageTitle.PFR'),
         },
       },
       {

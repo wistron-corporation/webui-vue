@@ -87,6 +87,11 @@ const AppNavigationMixin = {
               route: '/operations/firmware',
             },
             {
+              id: 'PFR',
+              label: this.$t('appNavigation.PFR'),
+              route: '/operations/PFR',
+            },
+            {
               id: 'reboot-bmc',
               label: this.$t('appNavigation.rebootBmc'),
               route: '/operations/reboot-bmc',
